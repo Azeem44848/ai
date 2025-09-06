@@ -773,7 +773,7 @@ clearImageBtn.addEventListener("click", () => {
 const knowledgeBase = {
   // Creator and personal questions
   "creator": {
-    keywords: ["who is abdul azeem", , "your creator","who made you","who is your developer","who is your maker","who created you","who is your author","who is your programmer","who is your engineer","who is your designer","who is your builder",],
+    keywords: ["who is abdul azeem", , "your creator","who made you","who is your developer","who is your maker","who created you","who is your author","who is your programmer","who is your engineer","who is your designer","who is your builder","creater"],
     response: "Mian Abdul Azeem is my creator. He is a skilled programmer with a passion for building innovative and useful applications. His expertise in web development and his dedication to creating elegant solutions are truly impressive."
   },
   "feelings": {
@@ -781,7 +781,7 @@ const knowledgeBase = {
     response: "As an AI, I don't have feelings, but I'm operating perfectly! Thanks for asking. How can I assist you today?"
   },
   "joke": {
-    keywords: ["tell me a joke", "can you tell me a joke", "joke please"],
+    keywords: ["tell me a joke", "can you tell me a joke", "joke please","joke","tell me joke"],
     response: "Why don't scientists trust atoms? Because they make up everything!"
   },
   "capabilities": {
@@ -803,7 +803,7 @@ const knowledgeBase = {
 
   // Pakistan-related questions
   "about Pakistan": {
-    keywords: ["tell me about pakistan", "about pakistan"],
+    keywords: ["tell me about pakistan", "about pakistan","what is pakistan"],
     response: "Pakistan, officially the Islamic Republic of Pakistan, is a country in South Asia. It's the world's fifth-most populous country and has the world's second-largest Muslim population. The capital city is Islamabad, and the largest city is Karachi. It's known for its diverse landscapes, from the Karakoram mountain range to the Indus River plains."
   },
   "capital of Pakistan": {
@@ -815,7 +815,7 @@ const knowledgeBase = {
     response: "Pakistan gained independence on August 14, 1947."
   },
   "floods in Pakistan": {
-    keywords: ["current news about floods in pakistan", "pakistan floods news", "floods in punjab"],
+    keywords: ["current news about floods in pakistan", "pakistan floods news", "floods in punjab","flood in Pakistan","flood"],
     response: "Pakistan's Punjab province is currently experiencing severe flooding, affecting millions of people. It's the first time in history that the three major rivers—Sutlej, Chenab, and Ravi—have overflowed simultaneously."
   },
 
@@ -825,41 +825,41 @@ const knowledgeBase = {
     response: "The Pythagorean theorem is a fundamental relation in Euclidean geometry among the three sides of a right triangle. It states that the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides: $a^2 + b^2 = c^2$."
   },
   "Newton's First Law": {
-    keywords: ["explain newton's first law of motion", "newton's first law", "law of inertia"],
+    keywords: ["explain newton's first law of motion", "newton's first law", "law of inertia","newton"],
     response: "Newton's First Law, also known as the Law of Inertia, states that an object will remain at rest or in uniform motion unless acted upon by a net external force. Basically, things keep doing what they're doing unless something pushes or pulls on them."
   },
   "largest ocean": {
-    keywords: ["what is the largest ocean", "largest ocean on earth"],
+    keywords: ["what is the largest ocean", "largest ocean on earth","ocean"],
     response: "The Pacific Ocean is the largest and deepest of the world's five oceans. It covers about one-third of the Earth's surface."
   },
   "about physics": {
-    keywords: ["about physics", "what is physics"],
+    keywords: ["about physics", "what is physics","physics"],
     response: "Physics is the study of matter, energy, and the fundamental forces of nature. Its major branches include Classical Mechanics, Thermodynamics, Electromagnetism, Relativity, and Quantum Mechanics."
   },
   "about mathematics": {
-    keywords: ["about mathematics", "what is mathematics"],
+    keywords: ["about mathematics", "what is mathematics","mathematics"],
     response: "Mathematics is a vast field of study that provides the tools for understanding the world around us. Some core branches are Algebra, Geometry, Calculus, Statistics, and Number Theory."
   },
   "theory of relativity": {
-    keywords: ["what is the theory of relativity", "explain relativity", "theory of relativity explained"],
+    keywords: ["what is the theory of relativity", "explain relativity", "theory of relativity explained","relativity"],
     response: "Albert Einstein's **theory of relativity** is a foundational theory in physics that revolutionized our understanding of space, time, gravity, and the universe. It's composed of two parts: **special relativity** and **general relativity**."
   },
   "what is algebra": {
-    keywords: ["explain algebra", "what is algebra"],
+    keywords: ["explain algebra", "what is algebra","algebra"],
     response: "**Algebra** is a branch of mathematics that uses variables and symbols to represent numbers and solve problems. It's like a language for talking about how things relate to each other, and it's essential for almost all other areas of math."
   },
   "what is gravity": {
-    keywords: ["what is gravity", "explain gravity"],
+    keywords: ["what is gravity", "explain gravity","gravity"],
     response: "**Gravity** is one of the four fundamental forces of nature. It's the force that attracts objects with mass toward each other. On Earth, gravity is what pulls things down, making an apple fall from a tree and keeping us on the ground."
   },
   
   // New questions added from previous response
   "capital of Japan": {
-    keywords: ["what is the capital of japan", "japan capital"],
+    keywords: ["what is the capital of japan", "japan capital","japan"],
     response: "The capital of Japan is Tokyo."
   },
   "Hamlet author": {
-    keywords: ["who wrote the play hamlet", "hamlet writer"],
+    keywords: ["who wrote the play hamlet", "hamlet writer","hamlet"],
     response: "William Shakespeare wrote the play 'Hamlet'."
   },
   "chemical symbol for gold": {
@@ -871,7 +871,7 @@ const knowledgeBase = {
     response: "Russia is the largest country in the world by land area."
   },
   "number of continents": {
-    keywords: ["how many continents are there", "list the continents"],
+    keywords: ["how many continents are there", "list the continents","continents"],
     response: "There are seven continents: Africa, Antarctica, Asia, Australia, Europe, North America, and South America."
   },
   "longest river": {
@@ -879,27 +879,27 @@ const knowledgeBase = {
     response: "The longest river in the world is the Nile River."
   },
   "Milky Way": {
-    keywords: ["what is the name of our galaxy", "our galaxy name"],
+    keywords: ["what is the name of our galaxy", "our galaxy name","Galaxy"],
     response: "The name of the galaxy our solar system is in is the Milky Way."
   },
   "first person on moon": {
-    keywords: ["who was the first person to walk on the moon", "first man on moon"],
+    keywords: ["who was the first person to walk on the moon", "first man on moon,"moon"],
     response: "The first person to walk on the moon was Neil Armstrong."
   },
   "kidney function": {
-    keywords: ["what is the main function of the kidneys", "kidneys function"],
+    keywords: ["what is the main function of the kidneys", "kidneys function","kidney"],
     response: "The main function of the kidneys is to filter waste products from the blood."
   },
   "boiling point of water": {
-    keywords: ["what is the boiling point of water", "boiling point of water in celsius"],
+    keywords: ["what is the boiling point of water", "boiling point of water in celsius","boiling point of water"],
     response: "The boiling point of water in Celsius is 100°C."
   },
   "Father of Modern Physics": {
-    keywords: ["who is known as the father of modern physics", "father of modern physics"],
+    keywords: ["who is known as the father of modern physics", "father of modern physics","modern physics"],
     response: "Albert Einstein is known as the 'Father of Modern Physics'."
   },
   "fastest land animal": {
-    keywords: ["what is the fastest land animal", "fastest animal on land"],
+    keywords: ["what is the fastest land animal", "fastest animal on land","fastest animal"],
     response: "The fastest land animal is the cheetah."
   },
   "largest organ": {
@@ -923,11 +923,11 @@ const knowledgeBase = {
     response: "The deepest point in the world's oceans is the Mariana Trench."
   },
   "WWII end year": {
-    keywords: ["what year did world war ii end", "when did wwii end"],
+    keywords: ["what year did world war ii end", "when did wwii end","world war 2"],
     response: "World War II ended in 1945."
   },
   "Mona Lisa painter": {
-    keywords: ["who painted the mona lisa", "mona lisa painter"],
+    keywords: ["who painted the mona lisa", "mona lisa painter","mona lisa"],
     response: "Leonardo da Vinci painted the 'Mona Lisa'."
   },
   "capital of Australia": {
@@ -935,7 +935,7 @@ const knowledgeBase = {
     response: "The capital of Australia is Canberra."
   },
   "human bones count": {
-    keywords: ["how many bones are in the adult human body", "bones in human body"],
+    keywords: ["how many bones are in the adult human body", "bones in human body","bones"],
     response: "There are 206 bones in the adult human body."
   },
   "caterpillar to butterfly process": {
@@ -979,7 +979,7 @@ const knowledgeBase = {
     response: "The main ingredient of guacamole is avocado."
   },
   "telephone inventor": {
-    keywords: ["who invented the telephone", "telephone inventor"],
+    keywords: ["who invented the telephone", "telephone inventor","telephone"],
     response: "Alexander Graham Bell invented the telephone."
   },
   "largest desert": {
@@ -987,7 +987,7 @@ const knowledgeBase = {
     response: "The largest desert in the world is the Antarctic Polar Desert."
   },
   "chemical formula for water": {
-    keywords: ["what is the chemical formula for water", "water chemical formula"],
+    keywords: ["what is the chemical formula for water", "water chemical formula","water"],
     response: "The chemical formula for water is $H_2O$."
   },
   "capital of Egypt": {
@@ -3943,5 +3943,6 @@ window.onload = function () {
 </script>
   </body>
 </html>
+
 
 
