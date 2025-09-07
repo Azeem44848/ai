@@ -382,7 +382,7 @@ const knowledgeBase = {
   
 
    "q1088/98_centripetal_vs_centrifugal":{
-    "keywords": ["hello", "hi", "hey", "hey there", "hi there", "hello there","hm"],
+    "keywords": ["hello","hey there", "hi there", "hello there"],
     "response": "I am a large language model, trained by Mian Abdul Azeem."
   },  
   
@@ -620,3 +620,4 @@ window.onload = function () {
   animate();
   prefetchWelcomeAudio();
 };
+
