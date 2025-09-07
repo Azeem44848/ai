@@ -3198,8 +3198,8 @@ const knowledgeBase = {
     "keywords": ["Who is  Sir Tanveer", "who is sir tanveer","tell me about sir tanveer", "information about sir tanveer","tanveer"],
     "response": "Sir Tanveer is a Urdu teacher at Informatics College Pansira Campus. He is highly regarded by his students, including Abdul Azeem. His teaching style is known for being  very clear and concise, interactive and engaging, or patient and supportive"
   }, 
-    "q1568_centripetal_vs_centrifugal":{
-    "keywords": ["Who is  Sir Faisal", "who is sir faisal","tell me about sir faisal", "information about sir faisal","faisal randhawa","Faisal Randhawa","Faisal randhawa"],
+    "64iu8_":{
+    "keywords": ["Who is  Sir Faisal", "who is sir faisal","tell me about sir faisal", "information about sir faisal","faisal randhawa","Faisal Randhawa","Faisal randhawa","faisal"],
     "response": " Sir Faisal Randhawa is the principal of Informatics College Pansira Campus. He is a respected figure in the educational community, known for his  visionary leadership, or dedication to student success. His commitment to improving academic standards or promoting extracurricular activities has had a positive impact on the college and its students."
   }, 
     "q10459_centripetal_vs_centrifugal":{
@@ -3306,7 +3306,7 @@ chatForm.addEventListener("submit", async (e) => {
 startBtn.addEventListener("click", () => {
   welcomeScreen.classList.add("hidden");
   chatContainer.classList.add("visible");
-  const welcomeMessage = "Welcome Abdul Azeem. Hope you are having a good day. How can I help you?";
+  const welcomeMessage = "Welcome Abdul Azeem. Hope you are having a good day. How can I assist you Today?";
   appendMessage("ai", welcomeMessage);
   if (prefetchedAudioUrl) {
     const audio = new Audio(prefetchedAudioUrl);
@@ -3381,3 +3381,4 @@ window.onload = function () {
   prefetchWelcomeAudio();
 
 };
+
