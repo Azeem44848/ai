@@ -1454,7 +1454,7 @@ const knowledgeBase = {
     response: "The national language of Pakistan is Urdu."
   },
   q4_founder: {
-    keywords: ["founder of pakistan", "who is the founder of pakistan","founder","quaid e azam","quaid"],
+    keywords: ["founder of pakistan", "who is the founder of pakistan","founder of pakistan","quaid e azam","quaid"],
     response: "The founder of Pakistan is Quaid-e-Azam Muhammad Ali Jinnah."
   },
   q5_independence_day: {
@@ -3199,11 +3199,11 @@ const knowledgeBase = {
     "response": "Sir Tanveer is a Urdu teacher at Informatics College Pansira Campus. He is highly regarded by his students, including Abdul Azeem. His teaching style is known for being  very clear and concise, interactive and engaging, or patient and supportive"
   }, 
     "q1568_centripetal_vs_centrifugal":{
-    "keywords": ["Who is  Sir Faisal", "who is sir faisal","tell me about sir faisal", "information about sir faisal","faisal randhawa","Faisal Randhawa","Faisal randhawa",],
+    "keywords": ["Who is  Sir Faisal", "who is sir faisal","tell me about sir faisal", "information about sir faisal","faisal randhawa","Faisal Randhawa","Faisal randhawa"],
     "response": " Sir Faisal Randhawa is the principal of Informatics College Pansira Campus. He is a respected figure in the educational community, known for his  visionary leadership, or dedication to student success. His commitment to improving academic standards or promoting extracurricular activities has had a positive impact on the college and its students."
   }, 
     "q10459_centripetal_vs_centrifugal":{
-    "keywords": ["Who is  Sir Nadeem", "who is sir nadeem","tell me about sir nadeem", "information about sir nadeem","nadeem zafar","Nadeem Zafar","Nadeem zafar",],
+    "keywords": ["Who is  Sir Nadeem", "who is sir nadeem","tell me about sir nadeem", "information about sir nadeem","nadeem zafar","Nadeem Zafar","Nadeem zafar"],
     "response": " Sir Nadeem is the principal of Eden Lyceum Group of Schools, and he is also Abdul Azeem's teacher. He is a highly respected educator and leader who is known for his dedication to his students and his school. He is a source of guidance and inspiration for Abdul Azeem."
   }, 
 
@@ -3379,4 +3379,5 @@ window.onload = function () {
   init3D();
   animate();
   prefetchWelcomeAudio();
+
 };
