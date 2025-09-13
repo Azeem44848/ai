@@ -59,7 +59,7 @@ function pcmToWav(pcmData, sampleRate) {
 
 // Prefetch the welcome message audio for a smooth start
 async function prefetchWelcomeAudio() {
-  const welcomeMessage = "Welcome Abdul Azeem. Hope you are having a good day. How can I help you?";
+  const welcomeMessage = "Welcome Hope you are having a good day. How can I Asist you today?";
   const payload = {
     contents: [{ parts: [{ text: welcomeMessage }] }],
     generationConfig: {
@@ -120,7 +120,7 @@ function appendMessage(role, text, imageUrl = null) {
   messageElement.appendChild(contentContainer);
   chatHistory.appendChild(messageElement);
   chatHistory.scrollTop = chatHistory.scrollHeight;
-  if (role === "ai" && text !== "Welcome. Hope you are having a good day. How can I Asist you today?" && !text.startsWith("Hmm, that's an interesting question.")) {
+  if (role === "ai" && text !== "Welcome Hope you are having a good day. How can I Asist you today?" && !text.startsWith("Hmm, that's an interesting question.")) {
     speakText(text);
   }
 }
@@ -386,7 +386,7 @@ const knowledgeBase = {
     "response": "I am a large language model, trained by Mian Abdul Azeem."
   },  
   
-  "q166597/98_centripetal_vs_centrifugal":{
+  "q166597/98":{
     "keywords": ["rehman "],
     "response": "Abdul Rehman is Abdul Azeem's little brother. Their relationship is characterized by their close family ties. As brothers, they likely share a supportive and encouraging bond. He is an important part of Abdul Azeem's life"
   },  
@@ -620,5 +620,6 @@ window.onload = function () {
   animate();
   prefetchWelcomeAudio();
 };
+
 
 
