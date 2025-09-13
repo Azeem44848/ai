@@ -546,7 +546,7 @@ chatForm.addEventListener("submit", async (e) => {
 startBtn.addEventListener("click", () => {
   welcomeScreen.classList.add("hidden");
   chatContainer.classList.add("visible");
-  const welcomeMessage = "Welcome Abdul Azeem. Hope you are having a good day. How can I help you?";
+  const welcomeMessage = "Welcome Hope you are having a good day. How can I Asist you today?";
   appendMessage("ai", welcomeMessage);
   if (prefetchedAudioUrl) {
     const audio = new Audio(prefetchedAudioUrl);
@@ -620,6 +620,7 @@ window.onload = function () {
   animate();
   prefetchWelcomeAudio();
 };
+
 
 
 
