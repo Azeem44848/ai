@@ -120,7 +120,7 @@ function appendMessage(role, text, imageUrl = null) {
   messageElement.appendChild(contentContainer);
   chatHistory.appendChild(messageElement);
   chatHistory.scrollTop = chatHistory.scrollHeight;
-  if (role === "ai" && text !== "Welcome Abdul Azeem. Hope you are having a good day. How can I help you?" && !text.startsWith("Hmm, that's an interesting question.")) {
+  if (role === "ai" && text !== "Welcome. Hope you are having a good day. How can I Asist you today?" && !text.startsWith("Hmm, that's an interesting question.")) {
     speakText(text);
   }
 }
@@ -620,4 +620,5 @@ window.onload = function () {
   animate();
   prefetchWelcomeAudio();
 };
+
 
